@@ -8,4 +8,4 @@ transport = [TravelMode("walking", 5), TravelMode("bike", 15), TravelMode("car",
 ask_distance = int(input("What is the distance to uni? (in km) "))
 
 for x in transport:
-    print("The time to uni by", x.mode, "is ", x.speed * ask_distance)
+    print("The time to uni by", x.mode, "is", x.speed * ask_distance, "minutes")
