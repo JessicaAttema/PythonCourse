@@ -11,11 +11,12 @@ for _ in range(36):
     mandala.forward(200)
     mandala.left(170)
 
+mandala.backward(20)
+
 for x in range(36):
     mandala.color("red")
-    mandala.backward(20)
     mandala.forward(240)
-    mandala.left(170)
+    mandala.left(165)
 
 
 paper.exitonclick()
