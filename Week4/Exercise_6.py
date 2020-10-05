@@ -1,8 +1,14 @@
 import turtle
 
 
+def draw_poly(t, n, size):
+    for _ in range(n):
+        t.forward(size)
+        t.left(360/n)
+
+
 def draw_triangle(t, size):
-    draw_poly(t, n, size)
+    draw_poly(t, 3, size)
 
 
 paper = turtle.Screen()
