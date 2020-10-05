@@ -2,10 +2,9 @@ import turtle
 
 
 def draw_poly(t, n, size):
-    size = 50
     for _ in range(n):
-        t.forward(20)
-        t.left(45)
+        t.forward(size)
+        t.left(360/n)
 
 
 paper = turtle.Screen()
@@ -16,3 +15,4 @@ tess.color("blue")
 draw_poly(tess, 8, 50)
 
 paper.exitonclick()
+
